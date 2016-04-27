@@ -32,8 +32,20 @@ public class MainJaket {
         System.out.println("Silahkan membeli");
        
         do{
+             System.out.println("=============PEMBELIAN JAKET================");
+        System.out.println("1. Jaket Apik           :Rp 100,000 ");
+        System.out.println("2. Jaket Bagus          :Rp 125,000 ");
+        System.out.println("3. Jaket Good           :Rp 175,000 ");
+        System.out.println("4. Berapa harga total yang harus saya bayar?");
+        System.out.println("5.Keluar");
+        System.out.print("Masukkan pilihan Anda: ");
+        int pilih = in.nextInt();
+        switch (pilih){
             
-        
+            
+         default:
+                System.out.println("Mohon Maaf, Pilihan anda Tidak Ditemukan");      
+        }
         System.out.print("Melanjutkan Transaksi? (Y/N) ");
         answer = in.next();
     }while(answer.equalsIgnoreCase("Y"));
