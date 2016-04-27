@@ -15,14 +15,21 @@ int nilai = a+b;
 System.out.println("nilai penjumlahan adalah : "+nilai);
 
 }
+public void Perkalian(int a, int b){
+int nilai = a*b;
+System.out.println("nilai perkalian adalah : "+nilai);
 
+}
 
 public static void Pengurangan(int a, int b){
 int nilai = a-b;
 System.out.println("nilai pengurangan adalah :"+nilai);
 }
 
-
+public void Pembagian (int a, int b){
+    int nilai=a/b;
+    System.out.println("nilai pembagian adalah : "+nilai);
+}
     }     
   
 
