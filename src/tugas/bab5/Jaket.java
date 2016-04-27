@@ -34,7 +34,24 @@ public class Jaket {
         total3 = banyak * jkt3 + total3;
         return total3;
     }
+     public void Diskon(int banyak){
+        if (banyak > 100){
+           total1 = total1 - (banyak*5000); 
+           
+        }else {}
+    }
+    public void Diskon2(int banyak){
+        if (banyak > 100){
+           total2 = total2 - (banyak*5000); 
+           
+        }else {}
     
+    }
+    public void Diskon3(int banyak){
+        if (banyak > 100){
+            total3=total3-(banyak*15000);
+    }else{}
+}
    
     
    
