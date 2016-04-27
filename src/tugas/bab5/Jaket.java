@@ -52,7 +52,11 @@ public class Jaket {
             total3=total3-(banyak*15000);
     }else{}
 }
-   
+   public static void Hatot(){
+        System.out.println("//////////||||||||||\\\\\\\\\\");
+        System.out.println("total harga yang harus anda bayarkan adalah : "+(total1+total2+total3));
+        System.out.println("----------||||||||||----------");
+    }
     
    
 }
