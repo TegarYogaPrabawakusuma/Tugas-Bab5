@@ -33,7 +33,12 @@ System.out.print("masukkan nilai 2 : ");
 nil2 = in.nextInt();
 
 //memanggil method NONstatic harus melalui objek
-
+Hitungan a = new Hitungan();
+a.Perkalian(nil1, nil2);
+Hitungan b=new Hitungan();
+b.Pembagian(nil1, nil2);
+Hitungan c=new Hitungan();
+c.Sederhana(nil1, nil2);
 }
 }
    
