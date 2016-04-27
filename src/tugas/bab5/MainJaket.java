@@ -41,7 +41,35 @@ public class MainJaket {
         System.out.print("Masukkan pilihan Anda: ");
         int pilih = in.nextInt();
         switch (pilih){
-            
+            case 1:
+              System.out.println("Anda akan membeli jaket Apik");
+              System.out.println("Masukkan jumlah jaket yang ingin anda beli : ");
+              int jumlah1=in.nextInt();
+              wow.jkt1(jumlah1);
+              wow.Diskon(jumlah1);
+                break;
+            case 2:
+                System.out.println("Anda akan membeli jaket Bagus");
+                System.out.println("Masukkan jumlah jaket yang ingin anda beli : ");
+                int jumlah2=in.nextInt();
+                wow.jkt2(jumlah2);
+                wow.Diskon2(jumlah2);
+                break;
+            case 3:
+                System.out.println("Anda akan membeli jaket Good");
+                System.out.println("Masukkan jumlah jaket yang ingin anda beli : ");
+                int jumlah3=in.nextInt();
+                wow.jkt3(jumlah3);
+                wow.Diskon3(jumlah3);
+                break;
+            case 4:
+                System.out.println("Terimakasih telah membeli produk kami");
+                Jaket.Hatot();
+                break;
+            case 5: 
+                System.out.println("Anda akan menghentikan transaksi");
+                
+                break;
             
          default:
                 System.out.println("Mohon Maaf, Pilihan anda Tidak Ditemukan");      
